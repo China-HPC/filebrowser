@@ -5,6 +5,7 @@
 .idea
 .vscode
 Dockerfile
+node_modules
 filebrowser
 rice-box.go
 vendor

@@ -227,7 +227,7 @@ func renderFile(c *fb.Context, w http.ResponseWriter, file string) (int, error) 
 	w.Header().Set("Content-Type", contentType+"; charset=utf-8")
 
 	data := map[string]interface{}{
-		"baseurl":       c.RootURL(),
+		"BaseURL":       c.RootURL(),
 		"NoAuth":        c.Auth.Method == "none",
 		"Version":       fb.Version,
 		"CSS":           template.CSS(c.CSS),

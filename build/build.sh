@@ -2,9 +2,9 @@
 
 set -e
 
-cd $(dirname $0)/../cli
+glide install
 
-go get -v ./...
+cd cli
 
 if [ "$COMMIT_SHA" != "" ]; then
   echo "Set version to ($COMMIT_SHA)"

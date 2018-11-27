@@ -1,0 +1,39 @@
+package: github.com/filebrowser/filebrowser
+import:
+- package: github.com/GeertJohan/go.rice
+- package: github.com/asdine/storm
+  version: v2.1.2
+  subpackages:
+  - q
+- package: github.com/dgrijalva/jwt-go
+  version: v3.2.0
+  subpackages:
+  - request
+- package: github.com/gohugoio/hugo
+  version: v0.9
+  subpackages:
+  - parser
+- package: github.com/gorilla/websocket
+  version: v1.4.0
+- package: github.com/hacdias/fileutils
+- package: github.com/hacdias/varutils
+- package: github.com/maruel/natural
+- package: github.com/mholt/archiver
+  version: v2.1.0
+- package: github.com/mholt/caddy
+  version: v0.11.1
+- package: github.com/mitchellh/go-homedir
+  version: v1.0.0
+- package: github.com/mitchellh/mapstructure
+  version: v1.1.2
+- package: github.com/robfig/cron
+  version: v1.1
+- package: github.com/spf13/cobra
+  version: v0.0.3
+- package: github.com/spf13/viper
+  version: v1.2.1
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
+- package: gopkg.in/natefinch/lumberjack.v2
+  version: v2.1
